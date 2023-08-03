@@ -1,6 +1,11 @@
-#Exercise 3.1
+#Exercise 3.2
+message =  "Hello "
+
 names = ['aly', 'Hassan', 'Gemy']
 for name in names:
-    print(name)
+    print(message + name)
+
+
+
 
 
