@@ -1,9 +1,8 @@
-#Exercise 3.2
-message =  "Hello "
+#Exercise 3.3
+pianos = ['Honda','Yamaha', 'Orlando', 'RingTone']
 
-names = ['aly', 'Hassan', 'Gemy']
-for name in names:
-    print(message + name)
+for piano in pianos:
+    print(f'I would like to own a {piano}')
 
 
 
