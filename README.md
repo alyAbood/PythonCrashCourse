@@ -9,8 +9,7 @@ This is an Angular project that includes a login screen and functionalities for 
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
+- [Future Enhancements](#future-enhancements)
 
 ## Features
 
@@ -70,3 +69,17 @@ src/
 │   ├── app.module.ts
 └── assets/
     └── (images, styles, etc.)
+```
+
+## Technologies Used
+	•	Angular: Frontend framework for building the application.
+	•	Angular CLI: Command-line interface for Angular.
+	•	TypeScript: Superset of JavaScript for type safety.
+	•	HTML/CSS: Markup and styling
+
+## Future Enhancements
+
+	1.	Handle Pagination: Implement pagination to improve the user experience when dealing with large datasets.
+	2.	Handle Loading State: Add loading indicators to improve user feedback during data fetch operations.
+	3.	Add Unit Testing: Implement unit tests to ensure the reliability and maintainability of the codebase.
+
