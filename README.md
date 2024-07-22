@@ -72,14 +72,15 @@ src/
 ```
 
 ## Technologies Used
-	•	Angular: Frontend framework for building the application.
-	•	Angular CLI: Command-line interface for Angular.
-	•	TypeScript: Superset of JavaScript for type safety.
-	•	HTML/CSS: Markup and styling
+
+- **Angular**: Frontend framework for building the application.
+- **Angular CLI**: Command-line interface for Angular.
+- **TypeScript**: Superset of JavaScript for type safety.
+- **HTML/CSS**: Markup and styling
 
 ## Future Enhancements
 
-	1.	Handle Pagination: Implement pagination to improve the user experience when dealing with large datasets.
-	2.	Handle Loading State: Add loading indicators to improve user feedback during data fetch operations.
-	3.	Add Unit Testing: Implement unit tests to ensure the reliability and maintainability of the codebase.
+- **Handle Pagination**: Implement pagination to improve the user experience when dealing with large datasets.
+- **Handle Loading State**: Add loading indicators to improve user feedback during data fetch operations.
+- **Add Unit Testing**: Implement unit tests to ensure the reliability and maintainability of the codebase.
 
