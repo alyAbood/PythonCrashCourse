@@ -1,15 +1,17 @@
+def print_models(unprinted_designes, completed_designs):
+    while unprinted_designes:
+        current_design = unprinted_designes.pop()
+        print(f"printing model: {current_design}")
+        completed_designs.append(current_design)
+def show_completed_models(completed_models):
+    """Show all the models that were printed"""
+    print("\nThe following models have been printed:")
+    for completed_model in  completed_models:
+        print(completed_model)
 
+unprinted_designs = ['phone_case', 'robot pendant', 'dodecahedron']
+completed_designs = []
 
-        
+print_models(unprinted_designes= unprinted_designs[:], completed_designs= completed_designs)
 
-def make_album(artist_name, album_title, number_of_songs= None): 
-    music_album = {"artist_name": artist_name, "album_title": album_title}
-    if number_of_songs:
-        music_album["number_of_songs"] = number_of_songs
-    print(music_album)
-
-    
-make_album("happy", "philip")
-make_album ("hello", "adele",30)
-
-
+show_completed_models(completed_models= completed_designs)
