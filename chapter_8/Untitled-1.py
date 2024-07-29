@@ -1,29 +1,23 @@
-def greet_user():
-    """displaying a simple greeting"""
-    print("Hello")
 
-greet_user()
+def describe_pet(animal_type, pet_name ='harry'):
+    print(f"i have a {animal_type}")
+    print(f"My {animal_type}'s name is {pet_name}")
 
+describe_pet("dog")
+describe_pet(animal_type="bird", pet_name="lara")
 
-def greet_user_by_name(username):
-    """Display a simple greeting with name"""
-    print(f"Hello, {username.title()}")
+#Exercise 8.3
+def make_shirt(message, size = "large" ):
+    print(f"The size of the shirt is {size} and message is {message}")
 
-
-greet_user_by_name("aly")
-
-
-#Exercise 8.1
-
-def display_message():
-    print("I am learning chpater 8 about functions")
-
-display_message()
-
-#Exercise 8.2
-
-def favorite_book(title):
-    print(f"One of my favourite books is {title.capitalize()}")
+make_shirt("Hello to my world","xl")
+make_shirt(message="Python rocks")
 
 
-favorite_book("alice in wonderland")
+def get_formatted_name(first_name, last_name):
+    """Return full name , neatly formatted"""
+    full_name = f"{first_name} {last_name}"
+    return full_name
+
+full_name = get_formatted_name("aly","aboud")
+print(full_name.title())
