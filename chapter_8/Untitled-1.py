@@ -1,17 +1,15 @@
-def print_models(unprinted_designes, completed_designs):
-    while unprinted_designes:
-        current_design = unprinted_designes.pop()
-        print(f"printing model: {current_design}")
-        completed_designs.append(current_design)
-def show_completed_models(completed_models):
-    """Show all the models that were printed"""
-    print("\nThe following models have been printed:")
-    for completed_model in  completed_models:
-        print(completed_model)
+def make_pizza(*toppings):
+    """print the list of toppings that have been requested"""
+    print(toppings)
 
-unprinted_designs = ['phone_case', 'robot pendant', 'dodecahedron']
-completed_designs = []
+make_pizza('pepperoni')
+make_pizza("mushroom", "green peppers", "extra cheese")
 
-print_models(unprinted_designes= unprinted_designs[:], completed_designs= completed_designs)
 
-show_completed_models(completed_models= completed_designs)
+def build_profile(first, last, **user_info):
+    """Build a dictionary containing everything we know about the user"""
+    user_info["first_name"] = first
+    user_info["last_name"] = last
+    return user_info
+user_profile = build_profile("aly","aboud",location = "alexandria", field = "physics")
+print(user_profile)
